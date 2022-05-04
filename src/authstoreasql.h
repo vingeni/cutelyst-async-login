@@ -15,6 +15,7 @@ public:
     void setUser(const AuthenticationUser& u);
     
 private:
+    QString m_idField;
     AuthenticationUser m_authuser;
 };
 
